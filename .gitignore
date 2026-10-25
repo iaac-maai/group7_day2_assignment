@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# trained model lives on Hugging Face, not GitHub
+models/*.joblib
