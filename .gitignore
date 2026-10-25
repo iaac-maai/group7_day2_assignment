@@ -221,3 +221,14 @@ __marimo__/
 
 # trained model lives on Hugging Face, not GitHub
 models/*.joblib
+test_download/
+
+# data: raw data is downloaded, not committed; the small cleaned file is kept
+data/*
+!data/.gitkeep
+!data/housing_clean.csv
+
+# OS files and secrets
+.DS_Store
+Thumbs.db
+kaggle.json
