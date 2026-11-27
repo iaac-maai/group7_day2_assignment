@@ -83,7 +83,7 @@ Removed on purpose: `id` (identifier), `date` (all sales from one year), `sqft_a
 |---|---|
 | **Dataset** | Housing Price Dataset (house sales in King County, Washington, USA) |
 | **Source** | [Kaggle – sukhmandeepsinghbrar/housing-price-dataset](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset) |
-| **Licence** | To be confirmed on the Kaggle page. The data comes from King County public sales records and is also published on Kaggle as "House Sales in King County, USA" under CC0 (public domain). |
+| **Licence** | Unknown (no licence is stated on the Kaggle page). The data comes from King County public sales records. |
 | **One row is** | One house sale: price, sizes, rooms, floors, grade, condition, view, waterfront, year built / renovated, zipcode, coordinates, neighbours' average sizes |
 | **Size used** | 21,418 houses (train 17,134; test 4,284) out of 21,613 raw rows × 21 columns |
 | **Coverage** | King County, WA, USA; sales from May 2014 to May 2015; residential houses only |
@@ -190,4 +190,4 @@ All random steps use `random_state=42`.
 
 Ugochinyere Megwa, Sneha Sachin Shenoy, Álvaro Miñé. Course assignment for **AI Methods I: Machine Learning for the Built Environment**, IAAC MaAI 2026/27.
 
-Model and code released under the MIT License. The training data is subject to its own licence: King County public sales records, published on Kaggle ([sukhmandeepsinghbrar/housing-price-dataset](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset); the same records are also on Kaggle as "House Sales in King County, USA" under CC0).
+Model and code released under the MIT License. The training data is subject to its own licence: King County public sales records, published on Kaggle ([sukhmandeepsinghbrar/housing-price-dataset](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset)), licence unknown (none is stated on the Kaggle page).

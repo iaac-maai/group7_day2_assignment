@@ -20,7 +20,7 @@ The costly mistake is **under-estimating** a house's value: the agent dismisses 
 | **Rows × columns (raw)** | 21,613 × 21 |
 | **Rows used** | 21,418 houses (18 impossible rows removed, and only the most recent sale kept for 177 houses sold twice) |
 | **One row is** | one house sale: price, sizes, rooms, floors, quality grade, condition, view, waterfront, year built / renovated, zipcode, latitude / longitude, average size of the 15 nearest houses |
-| **Licence** | ⚠️ *to check on the Kaggle page.* The data comes from King County public sales records and is also published on Kaggle as "House Sales in King County, USA" under CC0 (public domain). |
+| **Licence** | Unknown (no licence is stated on the Kaggle page). The data comes from King County public sales records. |
 
 **Why a new dataset?** Our Day 1 dataset (NYC Department of Buildings renovation permits) did not have enough usuable data to form valid predicitions. Because we switched datasets, this repository contains **two notebooks**: the cleaning and EDA of the new dataset, then the supervised learning pipeline.
 
